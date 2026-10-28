@@ -1,0 +1,19 @@
+{
+  "name": "kingside-chess",
+  "version": "1.0.0",
+  "description": "Play chess online with friends or random opponents",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "chess.js": "^1.4.0",
+    "express": "^5.3.0",
+    "ws": "^8.22.0"
+  },
+  "private": true,
+  "engines": {
+    "node": ">=22.13"
+  }
+}
